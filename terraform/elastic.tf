@@ -5,7 +5,6 @@ resource "ibm_database" "elastic" {
   version       = var.es_version
   location      = var.region
   adminpassword = var.es_password
-  resource_group_id = ibm_resource_group.ess_resource_group.id
   tags          = ["kos"]
 
   group {

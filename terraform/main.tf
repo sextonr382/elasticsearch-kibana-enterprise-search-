@@ -13,5 +13,5 @@ provider "ibm" {
 }
 
 resource "ibm_resource_group" "ess_resource_group" {
-  name = "rs_rg_SE"
+  name = "Product-Marketing"
 }
